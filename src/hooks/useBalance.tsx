@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { getStore, setStore } from "../utils/localstore";
 
 function useBalance() {

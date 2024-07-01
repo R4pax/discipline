@@ -98,6 +98,7 @@ function AddAction({ type, addAction }: Props) {
 
   const changeValue = (e: any) => {
     const newValue = e.target.value;
+    // eslint-disable-next-line eqeqeq
     if (newValue != Number(newValue)) return;
     setValue(+e.target.value);
   };

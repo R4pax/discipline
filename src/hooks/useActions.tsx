@@ -60,7 +60,7 @@ function useActions() {
       setActions(DefaultActions);
       setStore("actions", DefaultActions);
     }
-  }, []);
+  }, [storedActions]);
 
   const addAction = (newAction: ActionType) => {
     const newActions = [...actions, newAction];
