@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.9ec3c61a.css","mappings":"AAAA,EACE,qBAAsB,CACtB,QAAS,CACT,SACF,CAEA,aAEE,mBACF","sources":["App.css"],"sourcesContent":["* {\n  box-sizing: border-box;\n  margin: 0;\n  padding: 0;\n}\n\ninput,\nbutton {\n  font-family: inherit;\n}\n"],"names":[],"sourceRoot":""}
